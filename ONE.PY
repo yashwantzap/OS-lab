@@ -1,4 +1,4 @@
-# Scheduling Algorithms in Python
+ii# Scheduling Algorithms in Python
 def fcfs(processes, n):
     # Sorting by arrival time
     processes.sort(key=lambda x: x[1])
@@ -128,3 +128,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+!/bin/bash
+read -p "Enter degree celsius temperature: " C
+F=$(1.8*{$C})+32
+echo The temperature in Fahrenheit is $F
+in above shell script i am trying to convert
